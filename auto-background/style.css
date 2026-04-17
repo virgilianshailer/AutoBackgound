@@ -1,0 +1,31 @@
+#abg-settings .abg-row {
+    margin-bottom: 10px;
+}
+
+#abg-settings .abg-btns {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+#abg-settings .abg-btns .menu_button {
+    flex: 1;
+    min-width: 100px;
+    text-align: center;
+}
+
+#abg-settings .abg-status {
+    display: block;
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: rgba(0,0,0,.15);
+    font-style: italic;
+    opacity: .75;
+}
+
+#abg-settings .abg-hint {
+    display: block;
+    opacity: .5;
+    line-height: 1.6;
+    font-size: 11px;
+}
